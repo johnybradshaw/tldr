@@ -37,5 +37,3 @@
 - Delete a DNS record from a domain:
 
 `linode-cli domains records-delete [domain-id] [record-id]`
-
-For further commands and options, refer to the `--help` flag (e.g., `linode-cli domains --help`).

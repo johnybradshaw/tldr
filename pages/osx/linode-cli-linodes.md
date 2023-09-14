@@ -24,9 +24,7 @@
 
 - Boot/reboot/shutdown a Linode:
 
-`linode-cli linodes boot [linode-id]
-linode-cli linodes reboot [linode-id]
-linode-cli linodes shutdown [linode-id]`
+`linode-cli linodes [boot/reboot/shutdown] [linode-id]`
 
 - List available backups for a Linode:
 
@@ -35,5 +33,3 @@ linode-cli linodes shutdown [linode-id]`
 - Restore a backup to a Linode:
 
 `linode-cli linodes backups-restore [linode-id] --backup-id [backup-id]`
-
-For more commands and options, consider using the `--help` flag (e.g., `linode-cli linodes --help`).

@@ -21,5 +21,3 @@
 - Delete an LKE cluster:
 
 `linode-cli lke clusters delete [cluster-id]`
-
-For additional commands and options, consider using the `--help` flag (e.g., `linode-cli lke clusters --help`).

@@ -29,5 +29,3 @@
 - Add a new configuration to a NodeBalancer:
 
 `linode-cli nodebalancers configs create [nodebalancer-id] --port [port] --protocol [protocol]`
-
-For additional commands and options, refer to the `--help` flag (e.g., `linode-cli nodebalancers --help`).

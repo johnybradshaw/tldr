@@ -29,5 +29,3 @@
 - Revoke an access key for Object Storage:
 
 `linode-cli object-storage keys revoke [access-key-id]`
-
-For additional commands and options, use the `--help` flag (e.g., `linode-cli object-storage --help`).
