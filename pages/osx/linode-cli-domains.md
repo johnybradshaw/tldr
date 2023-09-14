@@ -14,10 +14,6 @@
 
 `linode-cli domains view [domain-id]`
 
-- Update settings for a managed domain:
-
-`linode-cli domains update [domain-id] --status [active/inactive]`
-
 - Delete a managed domain:
 
 `linode-cli domains delete [domain-id]`
