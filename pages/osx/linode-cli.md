@@ -4,24 +4,24 @@
 > Some subcommands such as `linode-cli linodes` have their own usage documentation.
 > More information: <https://www.linode.com/docs/products/tools/cli/get-started/>.
 
-- **List all Linodes:**
+- List all Linodes:
 
-  `linode-cli linodes list`
+`linode-cli linodes list`
 
-- **Manage Linode Kubernetes Engine (LKE):**
+- Manage Linode Kubernetes Engine (LKE):
 
-  `linode-cli lke clusters [list|create|delete]`
+`linode-cli lke clusters [list|create|delete]`
 
-- **Manage NodeBalancers:**
+- Manage NodeBalancers:
 
-  `linode-cli nodebalancers [list|create|delete]`
+`linode-cli nodebalancers [list|create|delete]`
 
-- **Manage Object Storage:**
+- Manage Object Storage:
 
-  `linode-cli object-storage buckets [list|create|delete]`
+`linode-cli object-storage buckets [list|create|delete]`
 
-- **Manage DNS domains:**
+- Manage DNS domains:
 
-  `linode-cli domains [list|create|delete]`
+`linode-cli domains [list|create|delete]`
 
 For detailed commands and options for each feature, use the `--help` flag with the respective sub-command (e.g., `linode-cli lke --help`).

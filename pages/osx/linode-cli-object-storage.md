@@ -2,32 +2,32 @@
 
 > Command-line interface to manage Linode Object Storage via `linode-cli`.
 
-- **List all Object Storage buckets:**
-  
-  `linode-cli object-storage buckets list`
+- List all Object Storage buckets:
 
-- **Create a new Object Storage bucket:**
-  
-  `linode-cli object-storage buckets create --cluster [cluster-id] --label [bucket-label]`
+`linode-cli object-storage buckets list`
 
-- **Delete an Object Storage bucket:**
-  
-  `linode-cli object-storage buckets delete [cluster-id] [bucket-label]`
+- Create a new Object Storage bucket:
 
-- **List Object Storage cluster regions:**
-  
-  `linode-cli object-storage clusters list`
+`linode-cli object-storage buckets create --cluster [cluster-id] --label [bucket-label]`
 
-- **List access keys for Object Storage:**
-  
-  `linode-cli object-storage keys list`
+- Delete an Object Storage bucket:
 
-- **Create a new access key for Object Storage:**
-  
-  `linode-cli object-storage keys create --label [label]`
+`linode-cli object-storage buckets delete [cluster-id] [bucket-label]`
 
-- **Revoke an access key for Object Storage:**
-  
-  `linode-cli object-storage keys revoke [access-key-id]`
+- List Object Storage cluster regions:
+
+`linode-cli object-storage clusters list`
+
+- List access keys for Object Storage:
+
+`linode-cli object-storage keys list`
+
+- Create a new access key for Object Storage:
+
+`linode-cli object-storage keys create --label [label]`
+
+- Revoke an access key for Object Storage:
+
+`linode-cli object-storage keys revoke [access-key-id]`
 
 For additional commands and options, use the `--help` flag (e.g., `linode-cli object-storage --help`).

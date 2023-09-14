@@ -2,32 +2,32 @@
 
 > Command-line interface to manage Linode NodeBalancers via `linode-cli`.
 
-- **List all NodeBalancers:**
+- List all NodeBalancers:
 
-  `linode-cli nodebalancers list`
+`linode-cli nodebalancers list`
 
-- **Create a new NodeBalancer:**
+- Create a new NodeBalancer:
 
-  `linode-cli nodebalancers create --region [region]`
+`linode-cli nodebalancers create --region [region]`
 
-- **View details of a specific NodeBalancer:**
-  
-  `linode-cli nodebalancers view [nodebalancer-id]`
+- View details of a specific NodeBalancer:
 
-- **Update an existing NodeBalancer:**
+`linode-cli nodebalancers view [nodebalancer-id]`
 
-  `linode-cli nodebalancers update [nodebalancer-id] --label [new-label]`
+- Update an existing NodeBalancer:
 
-- **Delete a NodeBalancer:**
+`linode-cli nodebalancers update [nodebalancer-id] --label [new-label]`
 
-  `linode-cli nodebalancers delete [nodebalancer-id]`
+- Delete a NodeBalancer:
 
-- **List configurations for a NodeBalancer:**
+`linode-cli nodebalancers delete [nodebalancer-id]`
 
-  `linode-cli nodebalancers configs list [nodebalancer-id]`
+- List configurations for a NodeBalancer:
 
-- **Add a new configuration to a NodeBalancer:**
+`linode-cli nodebalancers configs list [nodebalancer-id]`
 
-  `linode-cli nodebalancers configs create [nodebalancer-id] --port [port] --protocol [protocol]`
+- Add a new configuration to a NodeBalancer:
+
+`linode-cli nodebalancers configs create [nodebalancer-id] --port [port] --protocol [protocol]`
 
 For additional commands and options, refer to the `--help` flag (e.g., `linode-cli nodebalancers --help`).
