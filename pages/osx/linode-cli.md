@@ -23,5 +23,3 @@
 - Manage DNS domains:
 
 `linode-cli domains [list|create|delete]`
-
-For detailed commands and options for each feature, use the `--help` flag with the respective sub-command (e.g., `linode-cli lke --help`).
